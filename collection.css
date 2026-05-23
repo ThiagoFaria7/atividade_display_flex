@@ -1,0 +1,211 @@
+body {
+    margin: 0;  
+}      
+.cab {
+    width: 419.09px;
+    height: 963px;
+    text-align: center;
+    background-color: #ecececb3;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.img_red {
+    width: 160px;
+    height: 160px;
+    border: solid 1px white;
+    border-radius: 220px;
+    
+}
+.cab div {
+    padding-top: 4em;
+}
+
+.ul_cab {
+    list-style: none;
+}
+
+.menu {
+    padding-top: 1.2em;
+    margin-left: -3em;
+    font-weight: 800;
+    font-size: 1em;
+    color: #000000B3;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #000000B3;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+#h {
+    color: black;
+    text-decoration: underline;
+}
+.menu a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.cab div h3 {
+    color: #000000CC;
+    font-weight: 700;
+    margin-top: 14em;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.email {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+}
+
+.dourado {
+    width: 78%;
+    height: 20vh;
+    background-color: rgb(190, 174, 132);
+    margin-left: 22%;
+}
+
+.imgss {
+    width: 420.98px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.imagens div {
+    display: flex;
+    justify-content: center;
+        
+
+}
+
+.tamanho {
+    width: 74%;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin-left: 22%;
+    gap: 3%;
+}
+
+
+
+footer {
+    margin-top: 8em;
+    margin-left: 22%;
+    height: 35vh;
+    width: 78%;
+    background-color: #242423;
+    color: #ffffff;
+    padding: 84px 0px;
+    font-family: "Montserrat", Arial, sans-serif;
+    display: flex;
+}
+
+.divdiv {
+    margin-left: 12em;
+    display: flex;
+}
+
+.im {
+    width: 91px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.mini_fotos {
+    width: 300px;
+}
+
+.arch {
+    margin-left: 10em;
+}
+
+.have {
+    margin-left: 10em;
+}
+
+.arch ol li {
+    list-style: none;
+    margin-top: 2em;
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #ffffff90;
+}
+
+.oll {
+    margin-left: -2.5em;
+}
+
+hr {
+    width: 290px;
+    color: #3b3b3bc5;
+}
+
+.mm {
+    padding-left: 8.7em;
+}
+
+.oct {
+    padding-left: 10em;
+}
+
+.aug {
+    padding-left: 10.3em;
+}
+
+.july {
+    padding-left: 11.7em;
+}
+
+.have ol {
+    list-style: none;
+
+}
+
+.have ol li {
+    padding-top: 1em;
+}
+
+.have {
+    text-align: center;
+    position: absolute;
+    right: 9em;
+}
+
+.copy {
+    margin-left: -60%;
+    margin-top: 40vh;
+}
+
+.txt {
+    margin-left: -20em;
+    margin-top: -6em;
+    font-family:"Montserrat", Arial, sans-serif;
+}
+
+.imagens a {
+    padding-left: 1em;
+    color: black;
+
+}
+
+#a {
+    color: #5a5a5ab3;
+}
+
+.txt h1 {
+    margin-right: 2em;
+    font-weight: 900;
+}
+
+.gg {
+    display: block !important;
+    padding-top: 4em;
+    padding-left: 15%;
+    font-family:"Montserrat", Arial, sans-serif;
+}

@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, sans-serif;
+    margin: 0;
+}
+body {
+    display: flex;
+    line-height: 1.8;
+}
+ul{
+    list-style: none;
+}
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #bebebe1e;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 419.09px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.animacao:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+header img {
+    width: 160px;
+    height: 160px;
+    border: solid 1px white; 
+    border-radius: 200px;
+    object-fit: cover;
+}
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 27px;
+    line-height: 1.5;
+}
+#ulheader {
+    line-height: 2;
+    margin-top: 22px;
+    font-family: "Montserrat", Arial, sans-serif;
+    position: relative;
+    margin-left: -40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.842);
+}
+#services {
+    color: black;
+    border-bottom: 1px solid black;
+}
+li {
+    padding-top: 10px;
+}
+.gmail {
+    position: absolute;
+    bottom: 47px;
+    left: 110px;
+}
+.form-control {
+    width: 222px;
+    height: 50px;
+    padding: 6px 40px 6px 12px;
+    background: #fff;
+    border: 1px solid #ece4d5;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: inherit;
+}
+#newsletter {
+    color: rgba(22, 22, 22, 0.877);
+}
+
+section {
+    width: 1431.890px;
+    height: 100vh;
+    margin-left: 419.09px;
+}
+#ttlservice {
+    width: 1485.890px;
+    height: 213.391px;
+    padding: 60px 27px 60px 27px;
+    background: #ccb78f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#myserv {
+    width: 740px;
+    height: 60px;
+    font-weight: 750;
+    line-height: 1.5;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.5rem;
+}
+#homespace {
+    width: 740px;
+    height: 24px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#serv {border-bottom: 2px solid #b3a17e}
+#homeserv {color: rgba(0, 0, 0, 0.5);
+border-bottom: 2px solid #b3a17e;}
+#contato {
+    width: 1485.89px;
+    height: 978.5px;
+    padding: 75px 27px 75px 27px;
+    margin: 0;
+}
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    width: 1140px;
+    height: 828.5px;
+    margin: 0 145.938px 0 145.938px;
+    padding: 0 15px 0 15px;
+}
+.informacao {
+    display: flex;
+    width: 1140px;
+    height: 219px;
+    margin-bottom: 48px;
+    margin-left: -15px;
+    margin-right: -15px;
+    flex-wrap: wrap;
+}
+#information {
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 1440px;
+    padding: 0 15px 0 15px;
+}
+.dados {
+    width: 255px;
+    height: 145px;
+    padding: 24px 24px 24px 24px;
+    background: #f8f9fa;
+    margin: 0 12px 0 12px;
+}
+.dadosP {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #999999;
+}
+.black { color: black;}
+
+.form-box{
+    margin-right: 12px;
+    width: 540px;
+    height: 561.5px;
+    background: #f7f7f7;
+    padding: 48px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,
+textarea{
+    width: 100%;
+    border: 1px solid #cfd3d7;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #777;
+    padding-left: 14px;
+    margin-bottom: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    height: 51px;
+    background-color: #fff;
+}
+textarea{
+    background-color: #fff;
+    height: 174px;
+    padding-top: 14px;
+    resize: vertical;
+}
+input::placeholder,
+textarea::placeholder{
+    color: #7b8088;
+}
+button{
+    width: 213px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background: #ceb584;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 2px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+button:hover{
+    opacity: 0.9;
+}
+#mapa { margin-left: 12px;}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 1485.890px;
+    height: 560.125px;
+    background: #242423;
+    font-size: 14px;
+    padding: 6em 0;
+}
+.titlefooter {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.itens {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footerimg {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+}
+.ulfooter {
+    display: flex;
+    padding: 0;
+}
+.ulfooter li {
+    padding: 0;
+}
+.data {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17.5px;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.data span {
+    color: rgb(224, 224, 224);
+}
+#p1 { margin-left: 179px;}
+#p2 { margin-left: 198px;}
+#p3 { margin-left: 175px; }
+#p4 { margin-left: 206px;}
+#p5 { margin-left: 229px;}
+hr {
+    width: 345px;
+    border-color: #b8b8b846;
+    border: 0.01;
+    margin-bottom: 10px;
+}
+.information {
+    display: flex;
+    margin-bottom: 10px;
+}
+.icons {
+    width: 20px;
+    height: 20px;
+}
+.information span {
+    color: white;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+}
+#ulocation {
+    padding: 0;
+}
+#local {
+    color: rgba(255, 255, 255, 0.5);
+    width: 288px;
+    height: 45px;
+}
+.espacee {
+    margin-right: 25px;
+}
